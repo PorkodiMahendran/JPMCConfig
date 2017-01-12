@@ -1,9 +1,4 @@
 turbine:
   amqp:
-    port: 8989
-    
-spring:
-  profiles: cloud
+    port: 8989  
 
-management:
-  port: -1
