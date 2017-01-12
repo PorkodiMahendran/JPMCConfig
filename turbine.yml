@@ -1,4 +1,10 @@
-turbine:
-  amqp:
-    port: 8989  
+server:
+port: ${PORT:8989}
+management:
+port: 8990
 
+---
+spring:
+profiles: cloud
+management:
+port: -1
