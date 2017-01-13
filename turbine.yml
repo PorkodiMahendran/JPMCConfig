@@ -1,3 +1,5 @@
+server:
+  port: 0
 turbine:
-  server:
+  amqp:
     port: 8989
